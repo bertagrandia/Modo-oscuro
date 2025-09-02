@@ -9,24 +9,26 @@ import { I18nRouterProvider } from "./context/I18nRouterContext.jsx";
 
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
+import Contact from "./pages/Contact.jsx";
 
 const router = createBrowserRouter([
-  {
-    path: "/:lang?",
-    element: (
-      <ThemeProvider>
-        <I18nRouterProvider>
-          <App />
-        </I18nRouterProvider>
-      </ThemeProvider>
-    ),
-    children: [
-      { index: true, element: <Home /> },
-      { path: "about", element: <About /> },
-    ],
-  },
+   {
+      path: "/:lang?",
+      element: (
+         <ThemeProvider>
+            <I18nRouterProvider>
+               <App />
+            </I18nRouterProvider>
+         </ThemeProvider>
+      ),
+      children: [
+         { index: true, element: <Home /> },
+         { path: "about", element: <About /> },
+         { path: "contact", element: <Contact /> },
+      ],
+   },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <RouterProvider router={router} />
+   <RouterProvider router={router} />
 );

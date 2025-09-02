@@ -1,38 +1,68 @@
 {
   "es": {
-    "nav": { "home": "Inicio", "about": "Acerca" },
+    "nav": { "home": "Inicio" , "about": "Acerca", "contact": "Contacto"},
     "greeting": "Hola 👋",
-    "language": "Idioma",
+    "language":"Idioma",
     "themeLight": "Cambiar a Claro",
     "themeDark": "Cambiar a Oscuro",
     "home": { "title": "Página de inicio", "content": "Esta es la versión en español." },
-    "about": { "title": "Acerca de", "content": "Información de la app (ES)." }
+    "about": { "title": "Acerca de", "content": "Información de la app (ES)." },
+    "footer": {"title":"", "content": "Hecho con amor en Barcelona ❤."},
+    "header":{"title":"", "content": "Bienvenido a mi app"},
+    "contact": {"title":"Contacto", "content": "bertagrandia@gmail.com"}
   },
+
+   "cat": {
+    "nav": { "home":"Inici", "about": "Sobre", "contact": "Contacte"},
+    "greeting": "Hola 👋",
+    "language": "Idioma",
+    "themeLight": "Cambiar a Clar",
+    "themeDark": "Cambiar a Fosc",
+    "home": { "title": "Pàgina d'inici", "content": "Aquesta és la versió en català." },
+    "about": { "title": "Sobre", "content": "Informació de la app (CAT)." },
+    "footer": {"title":"", "content": "Fet amb amor a Barcelona ❤."},
+    "header":{"title":"", "content": "Benvinguts a la meva app"},
+    "contact": {"title":"Contacte", "content": "bertagrandia@gmail.com"}
+  },
+
+
+
   "en": {
-    "nav": { "home": "Home", "about": "About" },
+    "nav": { "home": "Home", "about": "About", "contact": "Contact"},
     "greeting": "Hello 👋",
     "language": "Language",
     "themeLight": "Switch to Light",
     "themeDark": "Switch to Dark",
     "home": { "title": "Home Page", "content": "This is the English version." },
-    "about": { "title": "About", "content": "App information (EN)." }
+    "about": { "title": "About", "content": "App information (EN)." },
+    "footer": {"title":"", "content": "Made with love in Barcelona ❤."},
+    "header":{"title":"", "content": "Welcome to my app"},
+    "contact": {"title":"Contact", "content": "bertagrandia@gmail.com"}
   },
+
   "fr": {
-    "nav": { "home": "Accueil", "about": "À propos" },
+    "nav": { "home": "Accueil", "about": "À propos", "contact": "Contact"},
     "greeting": "Bonjour 👋",
     "language": "Langue",
     "themeLight": "Passer en clair",
     "themeDark": "Passer en sombre",
     "home": { "title": "Page d’accueil", "content": "Ceci est la version française." },
-    "about": { "title": "À propos", "content": "Infos de l’app (FR)." }
+    "about": { "title": "À propos", "content": "Infos de l’app (FR)." },
+    "footer": {"title":"", "content": "Fait avec amour à bcn ❤."},
+    "header":{"title":"", "content": "Bienvenue dans mon application"},
+    "contact": {"title":"Contact", "content": "bertagrandia@gmail.com"}
   },
   "de": {
-    "nav": { "home": "Start", "about": "Über" },
+    "nav": { "home": "Start", "about": "Über", "contact":"Kontakt"},
     "greeting": "Hallo 👋",
     "language": "Sprache",
     "themeLight": "Wechsel zu Hell",
     "themeDark": "Wechsel zu Dunkel",
     "home": { "title": "Startseite", "content": "Das ist die deutsche Version." },
-    "about": { "title": "Über", "content": "App-Informationen (DE)." }
+    "about": { "title": "Über", "content": "App-Informationen (DE)." },
+    "footer": {"title":"", "content": "Mit Liebe in Barcelona gemacht ❤."},
+    "header":{"title":"", "content": "Willkommen in meiner App"},
+    "contact": {"title":"Kontakt", "content": "bertagrandia@gmail.com "}
+
   }
 }
