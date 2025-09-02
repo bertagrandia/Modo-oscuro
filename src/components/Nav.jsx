@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useI18n } from "../context/I18nRouterContext.jsx";
-import "../app.css";
+import "../App.css";
 
 export default function Nav() {
    const { lang, t, buildPath } = useI18n();
